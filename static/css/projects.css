@@ -1,0 +1,79 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to white */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header {
+    color: white;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: right; /* Center aligns items horizontally */
+    justify-content: right; /* Center aligns items vertically */
+    margin-top: 20px;
+    color: #fff; /* Set text color to white */
+    text-align: right; /* Center aligns text within the section */
+}
+
+.projects h2 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    margin-left: -40px; /* Move title to the left
+
+}
+
+.project-list {
+    max-width: 80%; /* Limits the width of the project list */
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
